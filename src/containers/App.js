@@ -3,6 +3,7 @@ import { default as AppComponent } from '../components/App';
 import {
   pickGesture,
   playAgain,
+  resetScoreboard,
 } from '../actions/app';
 
 const mapStateToProps = (state, ownProps) => {
@@ -32,6 +33,9 @@ const mapDispatchToProps = (dispatch, ownProps) => {
     },
     onPlayAgainClick: event => {
       dispatch(playAgain());
+    },
+    onResetScoreboardClick: event => {
+      dispatch(resetScoreboard());
     },
   };
 };

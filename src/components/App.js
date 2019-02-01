@@ -42,6 +42,9 @@ class App extends Component {
             </tr>
           </tbody>
         </table>
+        <button type="button" onClick={this.props.onResetScoreboardClick}>
+          Reset
+        </button>
         {(typeof this.props.gameState === 'string' && (
           <>
             <p>

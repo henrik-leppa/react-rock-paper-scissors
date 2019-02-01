@@ -12,3 +12,9 @@ export const playAgain = props => {
     type: types.PLAY_AGAIN,
   };
 };
+
+export const resetScoreboard = props => {
+  return {
+    type: types.RESET_SCOREBOARD,
+  };
+};

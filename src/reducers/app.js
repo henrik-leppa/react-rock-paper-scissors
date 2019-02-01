@@ -55,6 +55,13 @@ const app = (state = { ...initialState }, action) => {
         ...state,
         gameState: null,
       };
+    case types.RESET_SCOREBOARD:
+      return {
+        ...state,
+        draws: 0,
+        losses: 0,
+        wins: 0,
+      };
     default:
       return state;
   }
