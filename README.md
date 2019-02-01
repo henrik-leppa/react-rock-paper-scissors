@@ -25,6 +25,6 @@ Getting Started / Installation
      and indicate where it can be opened in localhost and on your network.
 
 
-[Create React App]: ./create-react-app-readme.md
+[Create React App README]: ./create-react-app-readme.md
 [Node Version Manager (NVM)]: https://github.com/creationix/nvm
 [Windows-equivalents]: https://github.com/creationix/nvm#important-notes
